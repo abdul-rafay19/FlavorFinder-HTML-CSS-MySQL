@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.cuisines-container {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.cuisine-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cuisine-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cuisine-card:hover {
+    transform: scale(1.05);
+    background-color: #ffcc00;
+    color: #333;
+}

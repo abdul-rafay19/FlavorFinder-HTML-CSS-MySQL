@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.users-container {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.users-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.user-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.user-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.date {
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+}

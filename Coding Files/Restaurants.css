@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.restaurants-container {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.restaurants-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.restaurant-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 320px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.rating {
+    font-size: 18px;
+    color: #ff9800;
+    font-weight: bold;
+}

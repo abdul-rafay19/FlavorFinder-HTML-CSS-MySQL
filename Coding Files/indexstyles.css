@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section#banner {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section#banner h2 {
+    margin: 0;
+    color: #333;
+}
+
+section#about {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+section#about h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Restaurant Gallery Styles */
+.restaurant-gallery {
+    padding: 2rem 0;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.gallery-item {
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.gallery-item img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.gallery-item h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-top: 0.5rem;
+}
+
+.gallery-item p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

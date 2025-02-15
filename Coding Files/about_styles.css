@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 2rem 0;
+}
+
+.member {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member h2 {
+    margin: 0.5rem 0;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+}
+
+.member p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

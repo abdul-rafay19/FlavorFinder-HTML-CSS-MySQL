@@ -1,0 +1,126 @@
+/* Import Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background Image */
+body {
+    background: url('Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Glassmorphism Effect */
+.login-box {
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header */
+.login-header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/* Input Fields */
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #000000;
+}
+
+.input-group input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Login Button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+/* Footer */
+.login-footer {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-footer a {
+    color: #2600ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

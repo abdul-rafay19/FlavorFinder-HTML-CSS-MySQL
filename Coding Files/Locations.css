@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.locations-container {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.location-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.location-card {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+
+.location-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    color: #f0f0f0;
+}
