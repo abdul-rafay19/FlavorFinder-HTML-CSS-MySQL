@@ -57,7 +57,7 @@ Flavor Finder is a feature-rich web application that allows users to **explore n
 ## 📸 Web Interface
 
 ### Home Page
-![Index Page](https://github.com/user-attachments/assets/31ad28c7-766b-40f4-9006-0aed1cc0e3fd)
+![image](https://github.com/user-attachments/assets/91b5a73a-4478-4ea1-b36b-9e8bc2b2e103)
 
 ### About Me
 ![About Me](https://github.com/user-attachments/assets/44a2e96d-b7f5-4cce-82c0-0a928a60b512)
@@ -78,10 +78,10 @@ Flavor Finder is a feature-rich web application that allows users to **explore n
 ![Registered Users](https://github.com/user-attachments/assets/583929d1-5a74-410f-9531-517565016792)
 
 ### Login Page
-![Login Page](https://github.com/user-attachments/assets/5af6135d-4718-4a3f-b51d-2eeb5ddf35b9)
+![image](https://github.com/user-attachments/assets/c6339148-612e-416a-9d98-4a610897adf0)
 
 ### Register Page
-![Register Page](https://github.com/user-attachments/assets/a0a41df5-0c07-45f0-9d9a-61ea199da6d1)
+![image](https://github.com/user-attachments/assets/6bc47ad2-e83c-47d2-9077-324d296017f8)
 
 
 ---
